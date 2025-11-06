@@ -1,27 +1,21 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-family: sans-serif;
   color: #fef6e4;
   font-size: 14px;
 }
-
 body {
   background-color: #fef6e4;
   width: 100vw;
 }
-
 p{
   width: 100px;
   height: 100px;
 }
-
 .container {
   background-color: #8bd3dd;
   border: 2px dashed #f582ae;
@@ -29,68 +23,56 @@ p{
   height: 1000px;
   margin: 50px auto;
 }
-
 .name {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: black;
+  color: white;
+  border: 5px solid green;
+  font-family: times, serif;
 }
-
 .hex {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: #172c66;
+  color: #fef6e4;
+  border: 5px solid #f582ae;
+  font-family: cursive;
 }
-
 .rgb {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: rgb(1, 17, 38);
+  color: rgb(242, 242, 242);
+  border: 5px solid rgb(64, 115, 68);
   font-size: 40px;
 }
-
 .hsl {
-  background-color: ;
-  color: ;
-  border: 5px solid ;
+  background-color: hsl(0, 60%, 34%);
+  color: hsla(0, 0%, 95%, .8);
+  border: 5px solid hsl(0, 87%, 59%);
 }
-
 .hue1 {
-  background-color: ;
+  background-color: hsl(60, 60%, 34%);
 }
-
 .hue2 {
-  background-color: ;
+  background-color: hsl(240, 60%, 34%);
 }
-
 .sat1 {
-  background-color: ;
+  background-color: hsl(0, 100%, 34%);
 }
-
 .sat2 {
-  background-color: ;
+  background-color: hsl(0, 50%, 34%);
 }
-
 .sat3 {
-  background-color: ;
+  background-color: hsl(0, 0%, 34%);
 }
-
 .light1{
-  background-color: ;
+  background-color: hsl(0, 60%, 0%);
 }
-
 .light2{
-  background-color: ;
+  background-color: hsl(0, 60%, 50%);
 }
-
 .light3{
-  background-color: ;
+  background-color: hsl(0, 60%, 100%);
 }
-
 .row {
   margin-bottom: 10px;
 }
-
 .row p{
  display: inline-block;
 }
