@@ -7,13 +7,11 @@ src: url("./assets/Fright Maiden Demo.ttf");
   font-weight: 400;
   font-style: normal;
 }
-
 .silkscreen-bold {
   font-family: "Silkscreen", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +32,10 @@ p{
 }
 .container {
   background-color: #8bd3dd;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(141, 102, 102, 0.75)), url("https://cdn.glitch.global/b3fabd8f-d8a8-47ea-9e16-a4bff0c1234a/y-so-serious.png?v=1664345580503");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border: 2px dashed #f582ae;
   width: 400px;
   height: 1000px;
@@ -52,7 +54,7 @@ p{
   font-family: cursive;
 }
 .rgb {
-  font-family: "fright"; sans-serif;
+  font-family: "fright", sans-serif;
   background-color: rgb(1, 17, 38);
   color: rgb(242, 242, 242);
   border: 5px solid rgb(64, 115, 68);
@@ -60,7 +62,7 @@ p{
   
 }
 .hsl {
-  font-family: "Silkscreen"; cursive;
+  font-family: "Silkscreen", cursive;
   background-color: hsl(0, 60%, 34%);
   color: hsla(0, 0%, 95%, .8);
   border: 5px solid hsl(0, 87%, 59%);
